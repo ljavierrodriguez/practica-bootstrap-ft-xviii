@@ -1,0 +1,69 @@
+:root {
+    --color-principal: #0e9787;
+    --color-secundario: #0d7c6f;
+    --fondo: #ffffff;
+}
+
+body {
+    background-color: var(--fondo);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#contact {
+    background-color: var(--color-secundario);
+    color: white;
+}
+
+#contact .info {
+    font-size: 12px;
+}
+
+#contact .info .email {
+    font-size: 12px;
+}
+
+#contact .social .fa-brands {
+    margin: 0 3px;
+}
+
+
+#header {
+    background-color: var(--color-principal);
+    color: white;
+}
+
+/* #contact .social a {
+    color: white;
+    text-decoration: none;
+} */
+
+.bg-custom {
+    background-color: var(--color-principal);
+}
+
+.active {
+    border-bottom: 3px solid red;
+}
+
+.height-header {
+    height: 600px;
+}
+
+.fs-7 {
+    font-size: 12px;
+}
+
+.btn-custom {
+    background-color: var(--color-principal);
+    box-shadow: 1px 1px 1px #ccc;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: var(--color-secundario);
+    color: white;
+    box-shadow: 1px 1px 1px #ccc;
+}
+
